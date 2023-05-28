@@ -3,3 +3,9 @@ export interface TodoInterface {
   text: string;
   isCompleted: boolean;
 }
+
+export enum FilterEnum {
+  all = 'all',
+  active = 'active',
+  completed = 'completed',
+}
